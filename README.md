@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/naumanz/weather-information">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -37,7 +37,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<a href="https://github.com/naumanz/weather-information">
+    <img src="images/screenshot.png" alt="Logo" width="1900" height="400">
+</a>
 
 Spring Boot application which gathers the weather information of a city and serve in a webpage lively.
 This application will serve the current temperature of the city in Celsius inside
@@ -117,17 +119,17 @@ After successfully initiated the back project, you can access the web page to en
 It will display the landing page with only current weather details of City:Lahore and Country:Pakistan as Application only getting the information of that city.
 You can configure and get the details of any city.
 
-<a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+<a href="https://github.com/naumanz/weather-information">
+    <img src="images/landing-page.PNG" alt="Logo" width="1900" height="400">
 </a>
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@LinkedIn](https://www.linkedin.com/in/nauman-zafar-7a6877114) - naumanzafar187@gmail.com
+Nauman Zafar - [@LinkedIn](https://www.linkedin.com/in/nauman-zafar-7a6877114) - naumanzafar187@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/naumanz/weather-information.git](https://github.com/naumanz/weather-information.git)
 
 
 
