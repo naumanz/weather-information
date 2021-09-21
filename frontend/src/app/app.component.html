@@ -1,0 +1,49 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-5 col-sm-12 col-xs-12">
+      <div class="card text-white">
+        <div class="div1 p-4 p-md-5 ">
+          <h5>{{city}} {{country}}</h5>
+          <h1>{{currentWeather.temp}}<sup>°C </sup> </h1>
+          <p class="my-0">Feels like {{currentWeather.feels_like}}</p>
+          <h4 class="my-0">{{currentWeather.description}}</h4>
+        </div>
+        <div class="div2"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="limiter">
+  <div class="container-table100">
+    <div class="wrap-table100">
+      <div class="table100 ver1 m-b-110">
+        <div class="table100-head">
+          <table>
+            <thead>
+            <tr class="row100 head">
+              <th class="cell100 column1">DateTime</th>
+              <th class="cell100 column2">Temperature</th>
+              <th class="cell100 column3">Feels like</th>
+              <th class="cell100 column4">Min /Max Temp</th>
+            </tr>
+            </thead>
+          </table>
+        </div>
+
+        <div class="table100-body js-pscroll">
+          <table>
+            <tbody>
+            <tr *ngFor="let weather of weathers">
+              <td class="cell100 column1">{{weather.actionDateTime}}</td>
+              <td class="cell100 column2">{{weather.temp}} <sup class="sup-custom">°c </sup></td>
+              <td class="cell100 column3">{{weather.feels_like}} <sup class="sup-custom">°c </sup> </td>
+              <td class="cell100 column4">{{weather.temp_min}} / {{weather.temp_max}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

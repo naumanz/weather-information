@@ -1,0 +1,29 @@
+server:
+  servlet:
+    contextPath: /
+camel:
+  springboot:
+    main-run-controller: true
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: ''
+    url: jdbc:h2:mem:testdb
+    username: sa
+  h2:
+    console:
+      enabled: true
+      path: /h2-ui
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+    show-sql: true
+
+openweathermap:
+  apiKey: 2a435956314da7e84851f562691be0af
+  unit: metric
+  delay: 1
+  timeUnit: MINUTES
