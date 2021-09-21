@@ -77,7 +77,7 @@ A project can be setup by two ways.
 
 1. Clone the repo to local
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/naumanz/weather-information.git
    ```
 2. Run command in root directory of project
    ```mvn
@@ -115,7 +115,7 @@ Note: please run the image only in 8080 port as backend api exposed only in 8080
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After successfully initiated the back project, you can access the web page to enter the url http://localhost:8080.
+After successfully initiated the backend project, you can access the web page to enter the url http://localhost:8080.
 It will display the landing page with only current weather details of City:Lahore and Country:Pakistan as Application only getting the information of that city.
 You can configure and get the details of any city.
 
